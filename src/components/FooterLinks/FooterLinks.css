@@ -1,0 +1,17 @@
+.footer__links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: #D5D5D5;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.footer__links a:hover {
+    color: #fc8414;
+}

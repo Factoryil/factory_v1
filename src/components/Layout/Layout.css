@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100dvh;
+    /* border: 2px solid red; */
+  }
+  
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-wrap: balance;
+  }
+  
+  img,
+  video,
+  svg {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+      transition: none;
+    }
+  }
+
+
+
+
+/* Estilos para la barra de desplazamiento en WebKit */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color del rastro (parte de fondo) */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f49d15; /* Color del pulgar (parte que se mueve) */
+  border-radius: 10px; /* Bordes redondeados para el pulgar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del pulgar al pasar el ratón */
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../assets/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root {
+  --height-header: 75px;
+}
+
+
+body {
+  font-family: 'Satoshi', sans-serif;
+}
+
+
+.contenedor-layout {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.header {
+  width: 100%;
+  height: var(--height-header);
+  /* border: 2px solid red; */
+  display: flex;
+}
+
+
+.main {
+  min-height: calc(100vh - var(--height-header));
+
+}
+
+.footer {
+  width: 100%;
+  margin-top: auto;
+}
+
+
+
+
+@media (max-width: 1037px) {
+  body.no-scroll  .main {
+      display: none;
+    }
+    body.no-scroll {
+      overflow-y: hidden;
+    }
+
+  }

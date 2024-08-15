@@ -1,0 +1,23 @@
+.icon-slider-container {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(202, 202, 202, 0.404);
+    padding-bottom: 20px;
+}
+
+.icon-slide {
+    text-align: center;
+    color: #FF7A00; /* Naranja */
+}
+
+.icon-image {
+    width: 120px;
+    height: 80px;
+    margin-bottom: 0px;
+}
+
+.icon-slide p {
+    color: #00235a;
+    text-align: center;
+}

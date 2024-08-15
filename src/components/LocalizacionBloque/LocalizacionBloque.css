@@ -1,0 +1,125 @@
+.contenedor-localizacion-satelital {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-localizacion-satelital > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.contenido-localizacion-satelital {
+    width: 100%;
+    max-width: 1200px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contenido-localizacion-satelital span {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #ff5e14;
+    font-weight: 550;
+}
+
+.contenido-localizacion-satelital h3 {
+    font-size: 2.5rem;
+    font-weight: 550;
+    margin-top: 15px;
+    color: #00235a;
+    max-width: 600px;
+}
+
+.contenedor-bloque-localizacion {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contenedor-bloque-localizacion > img {
+    height: 80px;
+    width: 80px;
+}
+
+.contenedor-bloque-localizacion > div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    color: #00235a;
+}
+
+.contenedor-bloque-localizacion > div > span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+.contenedor-bloque-localizacion > div > p {
+    font-size: 20px;
+    width: 80%;
+    line-height: 1.6;
+    font-weight: 550;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .contenido-localizacion-satelital h3 {
+        font-size: 2rem;
+    }
+
+    .contenedor-bloque-localizacion > img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .contenedor-bloque-localizacion > div > span {
+        font-size: 1.25rem;
+    }
+
+    .contenedor-bloque-localizacion > div > p {
+        font-size: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenido-localizacion-satelital {
+        padding: 20px;
+    }
+
+    .contenido-localizacion-satelital h3 {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-bloque-localizacion {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contenedor-bloque-localizacion > img {
+        height: 60px;
+        width: 60px;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-bloque-localizacion > div {
+        padding-left: 0;
+    }
+
+    .contenedor-bloque-localizacion > div > span {
+        font-size: 1rem;
+    }
+
+    .contenedor-bloque-localizacion > div > p {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,19 @@
+
+.contenedor-ingenierias {
+}
+
+.contenedor-ingenierias-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.contenedor-ingenierias-titulo h2 {
+    width: 60%;
+    text-align: center;
+    color: #00235a;
+    border-bottom: 8px solid #f49d15;
+    padding-bottom: 15px;
+}
