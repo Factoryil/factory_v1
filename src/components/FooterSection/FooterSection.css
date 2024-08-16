@@ -1,7 +1,7 @@
 .footer__section {
     width: 25%;
     padding: 15px;
-    color: #ffffff;
+    color: #fff;
   }
   
   .footer__title {
@@ -11,12 +11,25 @@
   }
   
   .footer__text {
-    color: #D5D5D5;
+
     font-family: "Roboto", Sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 29px;
+
   }
+
+  .footer__content {
+    color: #D5D5D5;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__content strong{
+    color: #eeeeee;
+  }
+
+
+  
 
 
   /* ==============================================================

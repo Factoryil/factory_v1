@@ -6,7 +6,7 @@ import CarruselBase from './CarruselBase';
 import imagenCarrusel1 from '../../assets/img/slider-1.jpg';
 import imagenCarrusel2 from '../../assets/img/slider-2.jpg';
 
-const CarruselIngenieriaCivil = () => {
+const CarruselIngenieriaElectrica = () => {
   return (
     <CarruselBase>
       <SwiperSlide>
@@ -44,4 +44,4 @@ const CarruselIngenieriaCivil = () => {
   );
 };
 
-export default CarruselIngenieriaCivil;
+export default CarruselIngenieriaElectrica;

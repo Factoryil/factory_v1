@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';  // Importar Link
 import logo from '../../assets/img/logoppal2.png'; 
 
-const LogoHeader = () => {
+const LogoHeader = ({handleResize}) => {
   return (
     <Link to="/" className="contenedor-logo-pagina">  {/* Cambiar <a> a <Link> */}
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" onClick={handleResize} />
     </Link>
   );
 };

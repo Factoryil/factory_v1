@@ -35,7 +35,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <LogoHeader />
+      <LogoHeader  handleResize={handleResize}/>
       <MenuIcon toggleMenu={toggleMenu} />
       <NavMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
     </div>

@@ -11,10 +11,10 @@ const CertificadosPage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const certificados = [
-    { img: certificado1, title: 'Certificado 1', text: 'LL-C Certification.' },
-    { img: certificado2, title: 'Certificado 2', text: 'LL-C Certification.' },
-    { img: certificado3, title: 'Sistema de Gestión de la Seguridad y Salud en el Trabajo. (ISO 45001:2018)', text: 'LL-C Certification.' },
-    { img: certificado4, title: 'Sistema de Gestión Ambiental. (ISO 14001:2015)', text: 'LL-C Certification.' },
+    { img: certificado1, title: 'Sistema de Gestión de la Calidad. (ISO 9001:2015)', text: 'Otorgado por LL-C Certification.' },
+    { img: certificado2, title: 'Cumplimiento de Normas Técnicas y de Seguridad en la Industria del Petróleo y Gas. (NORSOK S-WA-006:2020)', text: 'Otorgado por LL-C Certification.' },
+    { img: certificado3, title: 'Sistema de Gestión de la Seguridad y Salud en el Trabajo. (ISO 45001:2018)', text: 'Otorgado por LL-C Certification.' },
+    { img: certificado4, title: 'Sistema de Gestión Ambiental. (ISO 14001:2015)', text: 'Otorgado por LL-C Certification.' },
   ];
 
   const openModal = (index) => {

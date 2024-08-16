@@ -11,7 +11,7 @@ const IngenieriasPage = () => (
 
     <div className='contenedor-ingenierias'>
         <div className='contenedor-ingenierias-titulo'>
-            <h2>INGENIERÍA CIVIL, ELECTRONICA, ELECTRICA, SISTEMAS, AMBIENTAL, MECANICA Y INDUSTRIAL</h2>
+            <h2>INGENIERIAS</h2>
         </div>
         <ServicioIngenierias />
     </div>

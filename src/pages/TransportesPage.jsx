@@ -10,7 +10,7 @@ const TransportesPage = () => (
 
     <div className='contenedor-ingenierias'>
         <div className='contenedor-ingenierias-titulo'>
-            <h2>TRANSPORTE ESPECIAL DE PASAJEROS, DE CARGA, MAQUINARIA PESADA  Y  TURISMO EMPRESARIAL</h2>
+            <h2>TRANSPORTES</h2>
         </div>
         <ServicioTransportes />
     </div>

@@ -1,6 +1,6 @@
-
+/* 
 .contenedor-ingenierias {
-}
+} */
 
 .contenedor-ingenierias-titulo {
     width: 100%;
@@ -12,7 +12,7 @@
 }
 
 .contenedor-ingenierias-titulo h2 {
-    width: 60%;
+    width: 50%;
     text-align: center;
     color: #00235a;
     border-bottom: 8px solid #f49d15;

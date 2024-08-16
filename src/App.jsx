@@ -4,6 +4,8 @@ import Layout from './components/Layout/Layout';
 import LoadingSpinner from './components/LoadingSpinner/LoadingSpinner';
 
 // Importación dinámica de las páginas
+
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 const InicioPage = lazy(() => import('./pages/InicioPage'));
 const QuienesSomosPage = lazy(() => import('./pages/QuienesSomosPage'));
 const CertificadosPage = lazy(() => import('./pages/CertificadosPage'));
@@ -30,6 +32,7 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Suspense fallback={<LoadingSpinner />}>
         <Routes>
           <Route path="/" element={<Layout><InicioPage /></Layout>} />
