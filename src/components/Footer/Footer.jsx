@@ -14,7 +14,7 @@ const Footer = () => (
   <div className="footer">
     <div className="footer__container">
       <FooterSection title="Nuestra Empresa">
-        Somos una empresa de Ingeniería integral, ejecutamos proyectos que potencian la economía de su empresa. Ingeniería Eléctrica, de Sistemas, Electrónica, Mecánica, Civil, entre otras.
+        <p className='color-gris'>Somos una empresa de Ingeniería integral, ejecutamos proyectos que potencian la economía de su empresa. Ingeniería Eléctrica, de Sistemas, Electrónica, Mecánica, Civil, entre otras.</p>
       </FooterSection>
       <FooterSection title="Ubicaciones">
         <strong>SEDE TECNOLÓGICA</strong><br />BARRANCABERMEJA<br />

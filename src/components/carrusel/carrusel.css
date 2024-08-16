@@ -40,6 +40,7 @@
     height: 100%;
     flex-direction: column;
     justify-content: center;
+    user-select: none;
 }
 /* Estilo del título dentro de la diapositiva del carrusel */
 .swiper-slide .title {

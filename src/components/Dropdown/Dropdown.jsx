@@ -18,7 +18,7 @@ const Dropdown = ({ title, items, toggleMenu }) => {
       <div className={`dropdown-menu ${isDropdownOpen ? 'toggle' : ''}`}>
         {items.map((item, index) => (
           item.subItems ? (
-            <Dropdown key={index} title={item.title} items={item.subItems} />
+            <Dropdown key={index} title={item.title} items={item.subItems} toggleMenu={toggleMenu} />
           ) : (
             <Link key={index} to={item.to} className="dropdown-item" onClick={toggleMenu}>{item.label}</Link>  
           )

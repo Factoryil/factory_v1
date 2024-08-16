@@ -11,15 +11,25 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleResize = () => {
+    if (isMenuOpen) {
+      setIsMenuOpen(false); // Cierra el menú cuando se cambia el tamaño de la ventana
+    }
+  };
+
   useEffect(() => {
+    // Maneja el scroll y el evento de redimensionamiento
     if (isMenuOpen) {
       document.body.classList.add('no-scroll');
     } else {
       document.body.classList.remove('no-scroll');
     }
 
+    window.addEventListener('resize', handleResize);
+
     return () => {
       document.body.classList.remove('no-scroll');
+      window.removeEventListener('resize', handleResize);
     };
   }, [isMenuOpen]);
 

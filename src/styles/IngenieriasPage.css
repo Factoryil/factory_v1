@@ -3,6 +3,7 @@
 }
 
 .contenedor-ingenierias-titulo {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,4 +17,10 @@
     color: #00235a;
     border-bottom: 8px solid #f49d15;
     padding-bottom: 15px;
+}
+
+@media (max-width: 1075px) {
+    .contenedor-ingenierias-titulo h2 {
+        width: 80%;
+    }
 }

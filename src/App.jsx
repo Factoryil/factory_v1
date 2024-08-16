@@ -22,7 +22,10 @@ const TransporteEspecialPage = lazy(() => import('./pages/TransporteEspecialPage
 const TransporteHidrocarburosPage = lazy(() => import('./pages/TransporteHidrocarburosPage'));
 const TransportesPage = lazy(() => import('./pages/TransportesPage'));
 const BlogPage = lazy(() => import('./pages/BlogPage'));
+const VisionInnovadoraPage = lazy(() => import('./pages/VisionInnovadoraPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
+
+
 
 function App() {
   return (
@@ -50,6 +53,7 @@ function App() {
           <Route path="/logistica" element={<Layout><LogisticaPage /></Layout>} />
           <Route path="/blog" element={<Layout><BlogPage /></Layout>} />
           <Route path="/contacto" element={<Layout><ContactoPage /></Layout>} />
+          <Route path="/visioninnovadora" element={<Layout><VisionInnovadoraPage /></Layout>} />
           <Route path="*" element={<Layout><NotFoundPage /></Layout>} />
         </Routes>
       </Suspense>

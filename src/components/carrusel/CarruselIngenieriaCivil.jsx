@@ -34,8 +34,7 @@ const CarruselIngenieriaCivil = () => {
               <p>PRESTANDO SOLUCIONES INTEGRALES QUE POTENCIAN LA ECONOMÍA DE SU EMPRESA</p>
             </div>
             <div className="contenedor-link-carrusel">
-              <Link to="/" className="item-link-carrusel color-naranja">CONOCE MÁS</Link>
-              <Link to="/" className="item-link-carrusel color-azul">ESCRÍBENOS</Link>
+              <Link to="/contacto" className="item-link-carrusel color-naranja">ESCRÍBENOS</Link>
             </div>
           </div>
         </div>

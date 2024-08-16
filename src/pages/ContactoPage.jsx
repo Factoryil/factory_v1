@@ -13,8 +13,8 @@ const ContactInfo = () => {
   const emails = ["info@acme.com", "support@acme.com"];
   const phones = ["+57 300 123 4567", "+57 311 765 4321"];
   const offices = [
-    { location: "Barranquilla, Colombia", address: "Calle 123, Barrio Centro" },
-    { location: "Medellín, Colombia", address: "Calle 456, Barrio Norte" },
+    { location: "Barranquilla, Colombia", address: "CALLE 65B#42-45" },
+    { location: "BARRANCABERMEJA, Colombia", address: "Calle 52A #34c-60" },
   ];
 
   return (
@@ -62,7 +62,7 @@ const ContactInfo = () => {
       </div>
       <div className="map-container">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.165256857192!2d-74.80014348479969!3d10.978394157005898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42dbdc11f4f7d%3A0x910122c82a6e5b1d!2sCalle%20123%2C%20Barranquilla%2C%20Atl%C3%A1ntico%2C%20Colombia!5e0!3m2!1sen!2sus!4v1691853789013!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.6784763549877!2d-74.80052239999999!3d10.9876235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d6da225bdad%3A0x6d881fcd1fedadbd!2sCl.%2065b%20%2342-45%2C%20Nte.%20Centro%20Historico%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses-419!2sco!4v1723756330558!5m2!1ses-419!2sco"
           width="100%"
           height="300"
           style={{ border: 0 }}
@@ -79,13 +79,13 @@ const SocialMedia = () => {
     <div className="social-media">
       <h3>Síguenos en Redes Sociales</h3>
       <div className="social-icons">
-        <a href="https://facebook.com" target="_blank" rel="noreferrer">
+        <a href="https://web.facebook.com/factoryil/?_rdc=1&_rdr" target="_blank" rel="noreferrer">
           <img src={iconoFacebook} alt="Facebook" />
         </a>
         <a href="https://twitter.com" target="_blank" rel="noreferrer">
           <img src={iconoTwitterx} alt="Twitter" />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/factoryilco/" target="_blank" rel="noreferrer">
           <img src={iconoInstagram} alt="Instagram" />
         </a>
       </div>

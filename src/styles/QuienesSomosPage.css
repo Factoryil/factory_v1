@@ -70,3 +70,14 @@
     text-align: center;
 
 }
+
+
+@media (max-width: 1075px) {
+    .container-quienes-somos {
+        padding: 0px;
+    }
+
+    .section {
+        width: 90%;
+    }
+}

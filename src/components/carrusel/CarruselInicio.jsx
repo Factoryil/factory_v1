@@ -24,7 +24,7 @@ const CarruselInicio = () => {
               </p>
             </div>
             <div className="contenedor-link-carrusel">
-              <Link to="/" className="item-link-carrusel color-naranja">CONTACTANOS</Link>
+              <Link to="/contacto" className="item-link-carrusel color-naranja">CONTACTANOS</Link>
             </div>
           </div>
         </div>
@@ -43,8 +43,8 @@ const CarruselInicio = () => {
               <p>PRESTANDO SOLUCIONES INTEGRALES QUE POTENCIAN LA ECONOMÍA DE SU EMPRESA</p>
             </div>
             <div className="contenedor-link-carrusel">
-              <Link to="/" className="item-link-carrusel color-naranja">CONOCE MÁS</Link>
-              <Link to="/" className="item-link-carrusel color-azul">ESCRÍBENOS</Link>
+              <Link to="/visioninnovadora" className="item-link-carrusel color-naranja">CONOCE MÁS</Link>
+              <Link to="/contacto" className="item-link-carrusel color-azul">ESCRÍBENOS</Link>
             </div>
           </div>
         </div>

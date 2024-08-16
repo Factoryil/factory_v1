@@ -67,7 +67,8 @@
 
 ::-webkit-scrollbar-thumb {
   background: #f49d15; /* Color del pulgar (parte que se mueve) */
-  border-radius: 10px; /* Bordes redondeados para el pulgar */
+  /* border-radius: 10px; Bordes redondeados para el pulgar */
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar-thumb:hover {

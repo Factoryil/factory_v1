@@ -10,10 +10,9 @@ import iconoServicio4 from '../../assets/img/icono-servicio-4.png';
 import './servicios.css';
 
 const servicios = [
-    { icono: iconoServicio1, altText: 'TRANSPORTE ESPECIAL', texto: 'TRANSPORTE ESPECIAL', to: '/ingenieria-civil' },
-    { icono: iconoServicio2, altText: 'TRANSPORTE CARGA', texto: 'TRANSPORTE CARGA', to: '/ingenieria-civil' },
-    { icono: iconoServicio3, altText: 'TRANSPORTE HIDROCARBURO', texto: 'TRANSPORTE HIDROCARBUROL', to: '/ingenieria-civil' },
-    { icono: iconoServicio4, altText: 'TRANSPORTE PESADA', texto: 'TRANSPORTE PESADA', to: '/ingenieria-civil' },
+    { icono: iconoServicio1, altText: 'TRANSPORTE ESPECIAL', texto: 'TRANSPORTE ESPECIAL', to: '/transportes/especial' },
+    { icono: iconoServicio2, altText: 'TRANSPORTE CARGA', texto: 'TRANSPORTE CARGA', to: '/transportes/carga' },
+    { icono: iconoServicio3, altText: 'TRANSPORTE HIDROCARBURO', texto: 'TRANSPORTE HIDROCARBUROL', to: '/transportes/hidrocarburos' },
 ];
 
 const ServicioIngenierias = () => (

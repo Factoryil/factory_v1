@@ -11,13 +11,13 @@ import iconoServicio5 from '../../assets/img/icono-servicio-5.png';
 import './servicios.css';
 
 const servicios = [
-    { icono: iconoServicio1, altText: 'INGENIERÍA CIVIL', texto: 'INGENIERÍA CIVIL', to: '/ingenieria-civil' },
-    { icono: iconoServicio2, altText: 'INGENIERÍA ELECTRONICA', texto: 'INGENIERÍA ELECTRONICA', to: '/ingenieria-electronica' },
-    { icono: iconoServicio3, altText: 'INGENIERÍA ELECTRICA', texto: 'INGENIERÍA ELECTRICA', to: '/ingenieria-electrica' },
-    { icono: iconoServicio4, altText: 'INGENIERÍA SISTEMAS', texto: 'INGENIERÍA SISTEMAS', to: '/ingenieria-sistemas' },
+    { icono: iconoServicio1, altText: 'INGENIERÍA CIVIL', texto: 'INGENIERÍA CIVIL', to: '/ingenierias/civil' },
+    { icono: iconoServicio2, altText: 'INGENIERÍA ELECTRONICA', texto: 'INGENIERÍA ELECTRONICA', to: '/ingenierias/electronica' },
+    { icono: iconoServicio3, altText: 'INGENIERÍA ELECTRICA', texto: 'INGENIERÍA ELECTRICA', to: '/ingenierias/electrica' },
+    { icono: iconoServicio4, altText: 'INGENIERÍA SISTEMAS', texto: 'INGENIERÍA SISTEMAS', to: '/ingenierias/sistema' },
     { icono: iconoServicio5, altText: 'INGENIERÍA AMBIENTAL', texto: 'INGENIERÍA AMBIENTAL', to: '/ingenierias/ambiental' },
-    { icono: iconoServicio1, altText: 'INGENIERÍA MECANICA', texto: 'INGENIERÍA MECANICA', to: '/ingenieria-mecanica' },
-    { icono: iconoServicio3, altText: 'INGENIERÍA INDUSTRIAL', texto: 'INGENIERÍA INDUSTRIAL', to: '/ingenieria-industrial' },
+    { icono: iconoServicio1, altText: 'INGENIERÍA MECANICA', texto: 'INGENIERÍA MECANICA', to: '/ingenierias/mecanica' },
+    { icono: iconoServicio3, altText: 'INGENIERÍA INDUSTRIAL', texto: 'INGENIERÍA INDUSTRIAL', to: '/ingenierias/industrial' },
 ];
 
 const ServicioIngenierias = () => (

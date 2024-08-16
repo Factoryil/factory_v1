@@ -13,9 +13,9 @@ import './servicios.css';
 const servicios = [
     { icono: iconoServicio1, altText: 'Ingenierías', texto: 'INGENIERIAS', to: '/ingenierias' },
     { icono: iconoServicio2, altText: 'Transporte de Pasajeros', texto: 'LOGISTICA', to: '/logistica' },
-    { icono: iconoServicio3, altText: 'Transporte de Carga', texto: 'TRANSPORTE ESPECIAL', to: '/transporte-especial' },
-    { icono: iconoServicio4, altText: 'Transporte de Carga', texto: 'TRANSPORTE DE CARGA', to: '/transporte-carga' },
-    { icono: iconoServicio5, altText: 'Maquinaria Amarilla', texto: 'MAQUINARIA AMARILLA', to: '/maquinaria-amarilla' },
+    { icono: iconoServicio3, altText: 'Transporte de Carga', texto: 'TRANSPORTE ESPECIAL', to: '/transportes/especial' },
+    { icono: iconoServicio4, altText: 'Transporte de Carga', texto: 'TRANSPORTE DE CARGA', to: '/transportes/carga' },
+    { icono: iconoServicio5, altText: 'Maquinaria Amarilla', texto: 'MAQUINARIA AMARILLA', to: '/maquinariaamarilla' },
     { icono: iconoServicio5, altText: 'Alquiler de Vehículos', texto: 'ALQUILER DE VEHÍCULOS', to: '/alquiler-vehiculos' },
 ];
 
