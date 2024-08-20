@@ -8,7 +8,6 @@ import iconoFacebook from '../assets/img/icons8-facebook-48.png';
 import iconoTwitterx from '../assets/img/icons8-twitterx-50.png';
 import iconoInstagram from '../assets/img/icons8-instagram-48.png';
 
-
 const ContactInfo = () => {
   const emails = ["info@acme.com", "support@acme.com"];
   const phones = ["+57 300 123 4567", "+57 311 765 4321"];
@@ -20,45 +19,44 @@ const ContactInfo = () => {
   return (
     <div className="contact-info">
       <div className="contenedor-datos">
-      <h3>Datos de Contacto</h3>
-      <ul>
-        <li>
-          <div className="contenedor-titulo-datos">
-            <img src={iconoCorreo} alt="" />
-          <strong>Correos Electrónicos:</strong>
-          </div>
-          <ul>
-            {emails.map((email, index) => (
-              <li key={index}>{email}</li>
-            ))}
-          </ul>
-        </li>
-        <li>
-
-        <div className="contenedor-titulo-datos">
-            <img src={iconoTelefono} alt="" />
-          <strong>Teléfonos:</strong>
-          </div>
-          <ul>
-            {phones.map((phone, index) => (
-              <li key={index}>{phone}</li>
-            ))}
-          </ul>
-        </li>
-        <li>
-        <div className="contenedor-titulo-datos">
-            <img src={iconoOficina} alt="" />
-          <strong>Oficinas:</strong>
-          </div>
-          <ul>
-            {offices.map((office, index) => (
-              <li key={index}>
-                {office.location} - {office.address}
-              </li>
-            ))}
-          </ul>
-        </li>
-      </ul>
+        <h3>Datos de Contacto</h3>
+        <ul>
+          <li>
+            <div className="contenedor-titulo-datos">
+              <img src={iconoCorreo} alt="" />
+              <strong>Correos Electrónicos:</strong>
+            </div>
+            <ul>
+              {emails.map((email, index) => (
+                <li key={index}>{email}</li>
+              ))}
+            </ul>
+          </li>
+          <li>
+            <div className="contenedor-titulo-datos">
+              <img src={iconoTelefono} alt="" />
+              <strong>Teléfonos:</strong>
+            </div>
+            <ul>
+              {phones.map((phone, index) => (
+                <li key={index}>{phone}</li>
+              ))}
+            </ul>
+          </li>
+          <li>
+            <div className="contenedor-titulo-datos">
+              <img src={iconoOficina} alt="" />
+              <strong>Oficinas:</strong>
+            </div>
+            <ul>
+              {offices.map((office, index) => (
+                <li key={index}>
+                  {office.location} - {office.address}
+                </li>
+              ))}
+            </ul>
+          </li>
+        </ul>
       </div>
       <div className="map-container">
         <iframe
@@ -79,7 +77,7 @@ const SocialMedia = () => {
     <div className="social-media">
       <h3>Síguenos en Redes Sociales</h3>
       <div className="social-icons">
-        <a href="https://web.facebook.com/factoryil/?_rdc=1&_rdr" target="_blank" rel="noreferrer">
+        <a href="https://web.facebook.com/factoryil/?locale=es_LA&_rdc=1&_rdr" target="_blank" rel="noreferrer">
           <img src={iconoFacebook} alt="Facebook" />
         </a>
         <a href="https://twitter.com" target="_blank" rel="noreferrer">
@@ -97,7 +95,12 @@ const ContactForm = () => {
   return (
     <div className="contact-form">
       <h3>Ponte en Contacto</h3>
-      <form>
+      <form
+        action="https://formsubmit.co/345582ab1e16b65a13ad05c2a5a9d8cc"
+        method="POST"
+      >
+        <input type="hidden" name="_next" value="http://localhost:5173/contacto" />
+        <input type="hidden" name="_captcha" value="false" />
         <div className="form-group">
           <label htmlFor="name">Nombre Completo</label>
           <input type="text" id="name" name="name" required />
@@ -119,8 +122,8 @@ const ContactForm = () => {
 const ContactoPage = () => {
   return (
     <div className="contact-module">
-        <ContactInfo />
-        <SocialMedia />
+      <ContactInfo />
+      <SocialMedia />
       <ContactForm />
     </div>
   );

@@ -11,8 +11,8 @@ import './servicios.css';
 
 const servicios = [
     { icono: iconoServicio1, altText: 'TRANSPORTE ESPECIAL', texto: 'TRANSPORTE ESPECIAL', to: '/transportes/especial' },
+    { icono: iconoServicio3, altText: 'TRANSPORTE HIDROCARBURO', texto: 'TRANSPORTE HIDROCARBUROS', to: '/transportes/hidrocarburos' },
     { icono: iconoServicio2, altText: 'TRANSPORTE CARGA', texto: 'TRANSPORTE CARGA', to: '/transportes/carga' },
-    { icono: iconoServicio3, altText: 'TRANSPORTE HIDROCARBURO', texto: 'TRANSPORTE HIDROCARBUROL', to: '/transportes/hidrocarburos' },
 ];
 
 const ServicioIngenierias = () => (

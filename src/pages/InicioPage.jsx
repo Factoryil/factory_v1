@@ -6,6 +6,10 @@ import SectionV1 from "../components/SectionV1/SectionV1";
 import LocalizacionBloque from "../components/LocalizacionBloque/LocalizacionBloque";
 import TestimonioFactory from "../components/TestimonioFactory/TestimonioFactory";
 
+
+import FullWidthSection from '../components/FullWidthSection/FullWidthSection';
+
+import portafolio from '../assets/pdf/portafolio-de-servicios-general.pdf'
 const InicioPage = () => (
     <>
         <CarruselInicio />
@@ -17,6 +21,11 @@ const InicioPage = () => (
         />
         <LocalizacionBloque />
         <TestimonioFactory />
+        <FullWidthSection
+            title="Portafolio"
+            description="Este es nuestro portafolio general"
+            pdfUrl={portafolio} 
+        />
     </>
 );
 

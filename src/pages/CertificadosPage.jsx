@@ -40,7 +40,7 @@ const CertificadosPage = () => {
 
   return (
     <div className="container">
-      <h1 className="titulo">Mis Certificados</h1>
+      <h1 className="titulo">Sistema de Gestion</h1>
       <div className="grid">
         {certificados.map((certificado, index) => (
           <CertificadoCard

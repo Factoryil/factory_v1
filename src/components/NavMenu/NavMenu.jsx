@@ -23,7 +23,7 @@ const NavMenu = ({ isMenuOpen, toggleMenu }) => {
         title="QUIENES SOMOS"
         items={[
           { label: 'Quienes somos', to: '/quienes-somos' },
-          { label: 'Certificados', to: '/quienes-somos/certificados' },
+          { label: 'Sistema de Gestion', to: '/quienes-somos/certificados' },
         ]}
         isOpen={activeDropdown === 'QUIENES SOMOS'}
         onToggle={() => handleDropdownToggle('QUIENES SOMOS')}
